@@ -91,7 +91,6 @@
 </head>
 
 <body>
-
     <div class="body">
         <header>
             <div class="container">
@@ -100,33 +99,9 @@
                         <img alt="POSX" style="" src="/img/logos/LOGO_POSX.png">
                     </a>
                 </h1>
-                <nav>
-                    <ul class="nav nav-pills nav-top">
-
-                        <li>
-                            <a href="https://www.teamviewer.com/en/download/windows"><i class="icon icon-angle-right"></i>TeamViewer</a>
-                        </li>
-
-
-                        <li>
-                            <a id="register-app" href="https://app.niceloop.com/Account/Register"><i class="icon icon-angle-right"></i>Register</a>
-                        </li>
-                        <li>
-                            <a id="login-app" href="https://app.niceloop.com/"><i class="icon icon-angle-right"></i>Login</a>
-                        </li>
-
-                    </ul>
-                </nav>
-                <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse">
-                    <i class="icon icon-bars"></i>
-                </button>
             </div>
-
-
             <div class="navbar-collapse nav-main-collapse collapse">
                 <div class="container">
-
-
                     <nav class="nav-main mega-menu">
                         <ul class="nav nav-pills nav-main" id="mainMenu">
                             <li>
@@ -177,7 +152,7 @@
                             </div>
                             <div class="col-md-4">
                                 <div style="text-align: end;margin-top: 3px;">
-                                    <a href="http://app.niceloop.com/Account/Register" class="btn btn-lg btn-primary">ทดลองใช้งาน</a>
+                                    <a href="#" class="btn btn-lg btn-primary">ทดลองใช้งาน</a>
                                 </div>
                             </div>
                         </div>
@@ -370,7 +345,7 @@
                         <h4 class="short">Call Us</h4>
                         <span class="phone"><i class="icon icon-phone"></i> 099-335-0709</span>
                         <ul class="list icons list-unstyled">
-                            <li><i class="icon icon-envelope"></i> <a href="mailto:info@niceloop.com">info@niceloop.com</a></li>
+                            <li><i class="icon icon-envelope"></i> <a href="mailto:info@posx.com">info@posx.com</a></li>
                         </ul>
                     </div>
                 </div>
@@ -424,24 +399,6 @@
     <!-- Custom JS -->
     <script src="/js/custom.js"></script>
 
-
-    <script>
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments);
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m);
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-49890450-1', 'niceloop.com');
-        ga('require', 'displayfeatures');
-        ga('send', 'pageview');
-    </script>
     <script src="/js/app/myCustomAnalytic.js"></script>
 
     <!--Start of Zopim Live Chat Script-->
