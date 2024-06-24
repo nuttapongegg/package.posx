@@ -120,6 +120,12 @@
                             <li>
                                 <a href="/Contact">ติดต่อเรา</a>
                             </li>
+                            <li>
+                                <a href="#">สมัครใช้งาน</a>
+                            </li>
+                            <li>
+                                <a href="https://app.posx.co/index.php/">เข้าสู้ระบบ</a>
+                            </li>
                         </ul>
                     </nav>
                 </div>

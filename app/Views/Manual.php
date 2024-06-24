@@ -144,6 +144,12 @@
                             <li>
                                 <a href="/Contact">ติดต่อเรา</a>
                             </li>
+                            <li>
+                                <a href="#">สมัครใช้งาน</a>
+                            </li>
+                            <li>
+                                <a href="https://app.posx.co/index.php/">เข้าสู้ระบบ</a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -268,7 +274,7 @@
                                     <li>ระบบรายงานที่ครอบคลุม เช่น ยอดขาย บิลการขาย สินค้าที่ขาย สต๊อกสินค้า และรายจ่าย</li>
                                 </ul>
                                 <div style="margin-top: 15px;">
-                                    <a href="http://app.niceloop.com/Account/Register" class="btn btn-lg btn-primary">ดูคู่มือ</a>
+                                    <a href="/assets/PDF_คู่มือ/คู่มือระบบรายงาน.pdf" target="_blank" class="btn btn-lg btn-primary">ดูคู่มือ</a>
                                 </div>
                             </div>
                             <div id="7" class="feature-content">
