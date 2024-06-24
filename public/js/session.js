@@ -1,0 +1,2 @@
+function setSessionItem(key,value){sessionStorage.setItem(key,JSON.stringify(value));}
+function clearAllSessions(){console.log("clear session");sessionStorage.removeItem('mainNotification');sessionStorage.removeItem('mainNotificationPayment');sessionStorage.removeItem('notificationRequestDropship');sessionStorage.removeItem('buyCheckbox');sessionStorage.removeItem('productCheckbox');sessionStorage.removeItem('sellCheckbox');sessionStorage.removeItem('setupMerchant');}
