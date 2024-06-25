@@ -211,7 +211,7 @@
                                     <li>เพิ่ม ลด พนักงานได้อย่างง่ายดาย</li>
                                 </ul>
                                 <div style="margin-top: 15px;">
-                                    <a href="http://app.niceloop.com/Account/Register" class="btn btn-lg btn-primary">ดูคู่มือ</a>
+                                    <a href="/assets/PDF_คู่มือ/คู่มือระบบตั้งค่า.pdf" target="_blank" class="btn btn-lg btn-primary">ดูคู่มือ</a>
                                 </div>
                             </div>
                             <div id="2" class="feature-content">
@@ -224,7 +224,7 @@
                                     <li>จัดการสถานะของโต๊ะอาหารภายในร้าน</li>
                                 </ul>
                                 <div style="margin-top: 15px;">
-                                    <a href="http://app.niceloop.com/Account/Register" class="btn btn-lg btn-primary">ดูคู่มือ</a>
+                                    <a href="/assets/PDF_คู่มือ/คู่มือระบบรายงาน.pdf" target="_blank" class="btn btn-lg btn-primary">ดูคู่มือ</a>
                                 </div>
                             </div>
                             <div id="3" class="feature-content">
@@ -236,7 +236,7 @@
                                     <li>ส่งออเดอร์เข้าสู่เครื่องพิมพ์ภายในครัวและบาร์น้ำได้อย่างรวดเร็ว</li>
                                 </ul>
                                 <div style="margin-top: 15px;">
-                                    <a href="http://app.niceloop.com/Account/Register" class="btn btn-lg btn-primary">ดูคู่มือ</a>
+                                    <a href="http://app.niceloop.com/Account/Register" target="_blank" class="btn btn-lg btn-primary">ดูคู่มือ</a>
                                 </div>
                             </div>
                             <div id="4" class="feature-content">
@@ -262,7 +262,7 @@
                                     <li>สร้างและแก้ไขสูตรเมนูอาหาร</li>
                                 </ul>
                                 <div style="margin-top: 15px;">
-                                    <a href="http://app.niceloop.com/Account/Register" class="btn btn-lg btn-primary">ดูคู่มือ</a>
+                                    <a href="http://app.niceloop.com/Account/Register" target="_blank" class="btn btn-lg btn-primary">ดูคู่มือ</a>
                                 </div>
                             </div>
                             <div id="6" class="feature-content">
@@ -287,7 +287,7 @@
                                     <li>สามารถทำการปริ้น Barcode ไปติดตามโต๊ะ ลูกค้าสามารถสั่งอาหารเองได้ผ่านการสแกน Barcode</li>
                                 </ul>
                                 <div style="margin-top: 15px;">
-                                    <a href="http://app.niceloop.com/Account/Register" class="btn btn-lg btn-primary">ดูคู่มือ</a>
+                                    <a href="http://app.niceloop.com/Account/Register" target="_blank" class="btn btn-lg btn-primary">ดูคู่มือ</a>
                                 </div>
                             </div>
                         </div>
