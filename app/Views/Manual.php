@@ -224,7 +224,7 @@
                                     <li>จัดการสถานะของโต๊ะอาหารภายในร้าน</li>
                                 </ul>
                                 <div style="margin-top: 15px;">
-                                    <a href="/assets/PDF_คู่มือ/คู่มือระบบรายงาน.pdf" target="_blank" class="btn btn-lg btn-primary">ดูคู่มือ</a>
+                                    <a href="/assets/PDF_คู่มือ/คู่มือระบบจัดการโต๊ะ.pdf" target="_blank" class="btn btn-lg btn-primary">ดูคู่มือ</a>
                                 </div>
                             </div>
                             <div id="3" class="feature-content">
