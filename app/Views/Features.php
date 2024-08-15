@@ -207,16 +207,16 @@
                         <div class="col-md-6 ">
                             <ul class="bxslider">
                                 <li>
-                                        <img style="position: relative;top:40px" class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/screen-with-device/report-direct-column-macbook.png" data-appear-animation="fadeInRight">
+                                    <img style="position: relative;top:40px" class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/screen-with-device/report-notebook.png" data-appear-animation="fadeInRight">
                                 </li>
                                 <li>
                                     <div class="portfolio-item img-thumbnail">
-                                            <img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/screen-with-device/report-macbook-air-side.jpg" data-appear-animation="fadeInRight">
+                                        <img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/screen-with-device/report-macbook-air-side.jpg" data-appear-animation="fadeInRight">
                                     </div>
                                 </li>
                                 <li>
                                     <div class="portfolio-item img-thumbnail">
-                                            <img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/screen-with-device/report-ipad-air.jpg" data-appear-animation="fadeInRight">
+                                        <img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/screen-with-device/report-ipad-air.jpg" data-appear-animation="fadeInRight">
                                     </div>
                                 </li>
                             </ul>
@@ -291,40 +291,32 @@
                         <div class="col-md-12">
                             <h2 style="text-align: center">ตัวอย่างหน้าจอ Screenshot </h2>
                             <ul id="screenShot">
-                                <li><a class="fancy-thumb" rel="screen" href="/img/features/screen/dashboard.jpg" title="Dashboard : รายงานข้อมูลวันนี้">
-                                        <img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/thumb/dashboard_resize.jpg" title="Dashboard" data-appear-animation="fadeInRight">
+                                <li><a target="_blank" rel="screen" href="/img/features/screen/dashboard.jpg" title="Dashboard">
+                                        <img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/thumb/dashboard.jpg" title="Dashboard" data-appear-animation="fadeInRight">
                                     </a>
                                 </li>
-                                <li><a class="fancy-thumb" rel="screen" href="/img/features/screen/table.jpg" title="Tables : บันทึก/แสดง รายการข้อมูลโต๊ะอาหาร">
-                                        <img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/thumb/table_resize.jpg" title="Tables" data-appear-animation="fadeInRight">
+                                <li><a target="_blank" rel="screen" href="/img/features/screen/setting.jpg" title="Setting">
+                                        <img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/thumb/setting.jpg" title="Setting" data-appear-animation="fadeInRight">
                                     </a>
                                 </li>
-                                <li><a class="fancy-thumb" rel="screen" href="/img/features/screen/pos.jpg" title="Point Of Sales : การขายอาหาร/สินค้า/บริการ">
-                                        <img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/thumb/pos_resize.jpg" title="Point Of Sales" data-appear-animation="fadeInRight">
+                                <li><a target="_blank" rel="screen" href="/img/features/screen/expense.jpg" title="Expense">
+                                        <img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/thumb/expense.jpg" title="Expense" data-appear-animation="fadeInRight">
                                     </a>
                                 </li>
-                                <li><a class="fancy-thumb" rel="screen" href="/img/features/screen/pos-2.jpg" title="Point Of Sales 2 ">
-                                        <img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/thumb/pos-2_resize.jpg" title="Point Of Sales " data-appear-animation="fadeInRight">
+                                <li><a target="_blank" rel="screen" href="/img/features/screen/table.jpg" title="Tables">
+                                        <img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/thumb/table.jpg" title="Tables" data-appear-animation="fadeInRight">
                                     </a>
                                 </li>
-                                <li><a class="fancy-thumb" rel="screen" href="/img/features/screen/manager.jpg" title="Manager : สร้าง/แก้ไข/ลบ รายการอาหาร-ราคา">
-                                        <img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/thumb/report-column_resize.jpg" title="Management" data-appear-animation="fadeInRight">
+                                <li><a target="_blank" rel="screen" href="/img/features/screen/order.jpg" title="Order">
+                                        <img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/thumb/order.jpg" title="Order" data-appear-animation="fadeInRight">
                                     </a>
                                 </li>
-                                <li><a class="fancy-thumb" rel="screen" href="/img/features/screen/report-column.jpg" title="Report : รายงานยอดขาย 14 วันล่าสุด">
-                                        <img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/thumb/report-column_resize.jpg" title="Report Last 14 Days" data-appear-animation="fadeInRight">
+                                <li><a target="_blank" rel="screen" href="/img/features/screen/setting_TV.jpg" title="Setting TV">
+                                        <img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/thumb/setting_TV.jpg" title="Setting TV" data-appear-animation="fadeInRight">
                                     </a>
                                 </li>
-                                <li><a class="fancy-thumb" rel="screen" href="/img/features/screen/report-line-chart.jpg" title="Report  : รายงานยอดขาย 3 เดือนล่าสุด ">
-                                        <img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/thumb/report-line-chart_resize.jpg" title="Report Last 3 Months" data-appear-animation="fadeInRight">
-                                    </a>
-                                </li>
-                                <li><a class="fancy-thumb" rel="screen" href="/img/features/screen/report-sales.jpg" title="Report  : รายงานแต่ละบิล">
-                                        <img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/thumb/report-sales_resize.jpg" title="Report Each Bill" data-appear-animation="fadeInRight">
-                                    </a>
-                                </li>
-                                <li><a class="fancy-thumb" rel="screen" href="/img/features/screen/report-sales-detail.jpg" title="Report  : รายละเอียดของแต่ละบิล">
-                                        <img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/thumb/report-sales-detail_resize.jpg" title="Report Bill Detail" data-appear-animation="fadeInRight">
+                                <li><a target="_blank" rel="screen" href="/img/features/screen/report.jpg" title="Report">
+                                        <img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/thumb/report.jpg" title="Report" data-appear-animation="fadeInRight">
                                     </a>
                                 </li>
                             </ul>
