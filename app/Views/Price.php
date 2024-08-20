@@ -169,12 +169,12 @@
                                     <td>ไม่จำกัด</td>
                                     <td>ไม่จำกัด</td>
                                 </tr>
-                                <tr class="border">
+                                <!-- <tr class="border">
                                     <td>จำนวนโต๊ะที่รองรับ</td>
                                     <td>30 โต๊ะ</td>
                                     <td>100 โต๊ะ</td>
                                     <td>100 โต๊ะ</td>
-                                </tr>
+                                </tr> -->
                                 <tr class="border">
                                     <td>ระบบรายจ่าย</td>
                                     <td><i class="icon icon-check"></i></td>
@@ -217,7 +217,7 @@
                                     <td>ระบบสต็อกสินค้า (Inventory)
                                         <i class="icon icon-info-circle" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="ระบบสต็อกสามารถผูกสูตร และตัดสูตรอาหารอัตโนมัติได้ เมื่อมีการทำการขาย" data-original-title="" title=""></i>
                                     </td>
-                                    <td></td>
+                                    <td><i class="icon icon-check"></i></td>
                                     <td><i class="icon icon-check"></i></td>
                                     <td><i class="icon icon-check"></i></td>
                                 </tr>
@@ -263,17 +263,17 @@
                                     <td colspan="2">(ไม่รองรับพิมพ์ใบ Job order)</td>
                                     <td>รองรับ 3 Printer</td>
                                 </tr>
-                                <tr class="border">
+                                <!-- <tr class="border">
                                     <td>สั่งอาหารผ่านมือถือ / Tablet <i class=" icon icon-android "></i></td>
                                     <td colspan="2"></td>
                                     <td>5 มือถือ</td>
-                                </tr>
-                                <tr class="border">
+                                </tr> -->
+                                <!-- <tr class="border">
                                     <td>สั่งอาหารทาง PC (Terminal) <i class=" icon icon-desktop "></i></td>
                                     <td colspan="2"></td>
                                     <td>5 เครื่อง</td>
-                                </tr>
-                                <tr class="border">
+                                </tr> -->
+                                <!-- <tr class="border">
                                     <td>ขั้นตอนการสั่งอาหาร
                                         <br />
                                         <a style="padding-left: 30px" class="fancybox" href="/img/features/flow.jpg" title="แผนภาพ Flowchart พร้อมคำอธิบาย" class="fancybox">(คลิกเพื่อดูแผนภาพ)
@@ -301,7 +301,7 @@
                                             <li>รอเช็กบิล</li>
                                         </ol>
                                     </td>
-                                </tr>
+                                </tr> -->
                             </tbody>
                         </table>
                     </div>
