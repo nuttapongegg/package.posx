@@ -196,8 +196,8 @@
                                 <tr class="border">
                                     <td>รองรับรายงาน daily report</td>
                                     <td>3 email</td>
+                                    <td>5 email</td>
                                     <td>10 email</td>
-                                    <td>10 email / 1 SMS</td>
                                 </tr>
                                 <tr class="border">
                                     <td>SMS Report</td>
