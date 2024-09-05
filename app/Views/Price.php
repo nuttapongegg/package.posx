@@ -236,7 +236,7 @@
                                     </td>
                                     <td>3 Accounts</td>
                                     <td>5 Accounts</td>
-                                    <td>5 Accounts</td>
+                                    <td>10 Accounts</td>
                                 </tr>
                                 <tr class="border">
                                     <td>กำหนดสิทธิ์ user account การเข้าถึง Feature
@@ -249,6 +249,14 @@
                                 <tr class="border">
                                     <td>สร้าง Employee PIN กำหนดสิทธิ์หน้าการขาย POS
                                         <i class="icon icon-info-circle" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Employee PIN ใช้สำหรับระบุตัวตนผนักงาน และบอกสิทธิ์ในการใช้งานการขาย เช่น PIN : '1234' แคชเชียร์โอ็ต สามารถลดราคาได้ แต่ไม่สามารถ Void สินค้าได้ต้องให้ ผจก.มาทำการ VOID โดยใส่ PIN ที่ได้รับสิทธิ์การ VOID" data-original-title="" title=""></i>
+                                    </td>
+                                    <td> </td>
+                                    <td>20 PIN</td>
+                                    <td>ไม่จำกัด PIN</td>
+                                </tr>
+                                <tr class="border">
+                                    <td>สร้าง Employee PIN กำหนดสิทธิ์หน้าสต๊อก
+                                        <i class="icon icon-info-circle" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Employee PIN ใช้สำหรับระบุตัวตนผนักงาน และบอกสิทธิ์ในการใช้งานสต๊อก เช่น PIN : '1234' ผู้จัดการPP สามารถแก้ไขรายการในสต๊อกได้ แต่ไม่สามารถแก้ไขสูตร ได้ต้องให้ เจ้าของร้าน.มาทำการแก้ไข โดยใส่ PIN ที่ได้รับสิทธิ์การ Formula" data-original-title="" title=""></i>
                                     </td>
                                     <td> </td>
                                     <td>20 PIN</td>
