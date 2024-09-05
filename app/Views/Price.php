@@ -169,12 +169,18 @@
                                     <td>ไม่จำกัด</td>
                                     <td>ไม่จำกัด</td>
                                 </tr>
-                                <!-- <tr class="border">
+                                <tr class="border">
                                     <td>จำนวนโต๊ะที่รองรับ</td>
                                     <td>30 โต๊ะ</td>
-                                    <td>100 โต๊ะ</td>
-                                    <td>100 โต๊ะ</td>
-                                </tr> -->
+                                    <td>60 โต๊ะ</td>
+                                    <td>ไม่จำกัด</td>
+                                </tr>
+                                <tr class="border">
+                                    <td>สั่งสินค้าด้วยการสแกน Barcode</td>
+                                    <td></td>
+                                    <td><i class="icon icon-check"></i></td>
+                                    <td><i class="icon icon-check"></i></td>
+                                </tr>
                                 <tr class="border">
                                     <td>ระบบรายจ่าย</td>
                                     <td><i class="icon icon-check"></i></td>
@@ -199,12 +205,12 @@
                                     <td>5 email</td>
                                     <td>10 email</td>
                                 </tr>
-                                <tr class="border">
+                                <!-- <tr class="border">
                                     <td>SMS Report</td>
                                     <td> </td>
                                     <td> 1 SMS</td>
                                     <td> 1 SMS</td>
-                                </tr>
+                                </tr> -->
                                 <tr class="border">
                                     <td>กำหนดประเภทรายรับ
                                         <i class="icon icon-info-circle" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="ทางร้านสามารถกำหนดประเภทรายรับของแต่ละบิลได้เพื่อนำไปวิเคาระห์ยอดขาย เช่น Cash, VISA, Master Card, AIS Coupon" data-original-title="" title=""></i>
