@@ -60,6 +60,7 @@
     <link rel="icon" href="/img/logos/icon.png" sizes="72x72" type="image/png">
     <link rel="icon" href="/img/logos/icon.png" sizes="96x96" type="image/png"> -->
 
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
 
     <!-- Facebook Pixel Code -->
     <script>
@@ -88,6 +89,13 @@
     <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1106151966102615&ev=PageView&noscript=1" /></noscript>
     <!-- End Facebook Pixel Code -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <style>
+        * {
+            font-family: 'Kanit', sans-serif;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -124,7 +132,7 @@
                                 <a href="https://app.posx.co/register">สมัครใช้งาน</a>
                             </li>
                             <li>
-                                <a href="https://app.posx.co/index.php/">เข้าสู้ระบบ</a>
+                                <a href="https://app.posx.co/index.php/">เข้าสู่ระบบ</a>
                             </li>
                         </ul>
                     </nav>
@@ -143,10 +151,9 @@
                                 </p>
                             </div>
                             <div class="col-md-6 push-top">
-                                <iframe src="https://player.vimeo.com/video/137729842" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                <iframe style="width: 500px; height: 281px; left: 0px; top: 0px;" src="https://www.youtube.com/embed/a2z-5_X-bQ4" title="Cooking Background Music" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
                         </div>
-                    </div>
                 </section>
                 <div class="home-intro">
                     <div class="container">

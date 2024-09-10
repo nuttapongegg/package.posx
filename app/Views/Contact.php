@@ -60,6 +60,13 @@
     <link rel="icon" href="/Favicon/icon72.png" sizes="72x72" type="image/png">
     <link rel="icon" href="/Favicon/icon96.png" sizes="96x96" type="image/png"> -->
 
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Kanit', sans-serif;
+        }
+    </style>
 
     <!-- Facebook Pixel Code -->
     <script>
@@ -123,7 +130,7 @@
                                 <a href="https://app.posx.co/register">สมัครใช้งาน</a>
                             </li>
                             <li>
-                                <a href="https://app.posx.co/index.php/">เข้าสู้ระบบ</a>
+                                <a href="https://app.posx.co/index.php/">เข้าสู่ระบบ</a>
                             </li>
                         </ul>
                     </nav>
@@ -193,7 +200,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                    <!-- data-sitekey="6LdnlFEdAAAAAAnn6hdsZvnGB2x7lMS77d2x0QZ1" -->
+                                        <!-- data-sitekey="6LdnlFEdAAAAAAnn6hdsZvnGB2x7lMS77d2x0QZ1" -->
                                         <input id="button-submit" type="submit" value="Submit" class="g-recaptcha btn btn-primary btn-lg"  data-callback='onSubmit'></input>
                                     </div>
                                 </div>

@@ -1056,7 +1056,7 @@ div.slider-container div.blackboard-text {
 	color: #BAB9BE;
 	font-size: 46px;
 	line-height: 46px;
-	font-family: "Shadows Into Light",cursive;
+	font-family: 'Kanit', sans-serif;
 	text-transform: uppercase;
 }
 
@@ -1164,7 +1164,7 @@ div.home-intro p span {
 }
 
 div.home-intro p em {
-	font-family: "Shadows Into Light", cursive;
+	font-family: 'Kanit', sans-serif;
 	font-size: 1.6em;
 }
 
@@ -1222,7 +1222,7 @@ div.home-concept div.process-image img {
 
 div.home-concept strong {
 	display: block;
-	font-family: "Shadows Into Light", cursive;
+	font-family: 'Kanit', sans-serif;
 	font-size: 2.1em;
 	font-weight: normal;
 	position: relative;
@@ -1385,7 +1385,7 @@ footer div.footer-ribon:before {
 
 footer div.footer-ribon span {
 	color: #FFF;
-	font-family: "Shadows Into Light", cursive;
+	font-family: 'Kanit', sans-serif;
 	font-size: 1.6em;
 }
 

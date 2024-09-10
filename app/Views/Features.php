@@ -60,6 +60,13 @@
     <link rel="icon" href="/Favicon/icon72.png" sizes="72x72" type="image/png">
     <link rel="icon" href="/Favicon/icon96.png" sizes="96x96" type="image/png"> -->
 
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Kanit', sans-serif;
+        }
+    </style>
 
     <!-- Facebook Pixel Code -->
     <script>
@@ -122,7 +129,7 @@
                                 <a href="https://app.posx.co/register">สมัครใช้งาน</a>
                             </li>
                             <li>
-                                <a href="https://app.posx.co/index.php/">เข้าสู้ระบบ</a>
+                                <a href="https://app.posx.co/index.php/">เข้าสู่ระบบ</a>
                             </li>
                         </ul>
                     </nav>
@@ -135,7 +142,7 @@
                     <div class="container" style="margin-bottom: 35px">
                         <div class="row">
                             <div class="col-md-12">
-                                <h1 class="text-center">มาเพิ่มประสิทธิภาพในการทำงานให้กับร้านของคุณ <br /><br />ทดลองใช้ได้แล้ววันนี้ <a style="margin-left: 20px" href="#" class="center btn btn-default btn-lg  ">ทดลอง<strong>ฟรี</strong>วันนี้</a> <span class="arrow hl" style="top: 25px;"></span>
+                                <h1 class="text-center">มาเพิ่มประสิทธิภาพในการทำงานให้กับร้านของคุณ <br /><br />ทดลองใช้ได้แล้ววันนี้ <a style="margin-left: 20px" href="https://app.posx.co/register" class="center btn btn-default btn-lg  ">ทดลอง<strong>ฟรี</strong>วันนี้</a> <span class="arrow hl" style="top: 25px;"></span>
                                 </h1>
                             </div>
                         </div>
@@ -158,7 +165,7 @@
                             </p>
                         </div>
                         <div class="col-md-7 ">
-                                <img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/screen-with-device/pos-imac-direct.png" data-appear-animation="fadeInRight">
+                            <img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/screen-with-device/pos-imac-direct.png" data-appear-animation="fadeInRight">
                         </div>
                     </div>
                 </div>
@@ -167,7 +174,7 @@
                         <div class="row more-height">
                             <div class="col-md-6 push-top">
                                 <div class="portfolio-item img-thumbnail">
-                                        <img height="380px" class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/1390.jpg" data-appear-animation="fadeInRight">
+                                    <img height="380px" class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/1390.jpg" data-appear-animation="fadeInRight">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -228,7 +235,7 @@
                         <div class="row more-height">
                             <div class="col-md-6 push-top">
                                 <div class="portfolio-item img-thumbnail">
-                                        <img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/expense.jpg" data-appear-animation="fadeInRight">
+                                    <img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/expense.jpg" data-appear-animation="fadeInRight">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -257,7 +264,7 @@
                             </p>
                         </div>
                         <div class="col-md-5 ">
-                                <img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/inventory123.png" data-appear-animation="fadeInRight">
+                            <img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/inventory123.png" data-appear-animation="fadeInRight">
                         </div>
                     </div>
                 </div>
@@ -266,7 +273,7 @@
                         <div class="row">
                             <div class="col-md-6 push-top">
                                 <div class="portfolio-item img-thumbnail">
-                                        <img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/screen/authorized-user.png" data-appear-animation="fadeInRight">
+                                    <img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="/img/features/screen/authorized-user.png" data-appear-animation="fadeInRight">
                                 </div>
                             </div>
                             <div class="col-md-6">
