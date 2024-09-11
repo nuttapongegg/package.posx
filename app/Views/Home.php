@@ -147,7 +147,7 @@
                             <div class="col-md-6">
                                 <h2 class="push-top"><strong>POSX</strong> ระบบบริหารร้านอาหาร</h2>
                                 <p class="lead">
-                                    POSX คือระบบ POS ร้านอาหาร ซึ่งช่วยทำให้ร้านอาหารเพิ่มประสิทธิภาพในการทำงาน และจัดเก็บข้อมูลการขาย | รายจ่าย | สต็อก | ระบบรายงาน
+                                    POSX คือระบบ POS ร้านอาหาร ซึ่งช่วยทำให้ร้านอาหารเพิ่มประสิทธิภาพในการทำงาน และการจัดเก็บข้อมูลการขาย | รายจ่าย | สต็อก | ระบบรายงาน
                                 </p>
                             </div>
                             <div class="col-md-6 push-top">
@@ -165,7 +165,7 @@
                             </div>
                             <div class="col-md-4">
                                 <div style="text-align: end;margin-top: 3px;">
-                                    <a href="#" class="btn btn-lg btn-primary">ทดลองใช้งาน</a>
+                                    <a href="https://app.posx.co/register" class="btn btn-lg btn-primary">ทดลองใช้งาน</a>
                                 </div>
                             </div>
                         </div>
