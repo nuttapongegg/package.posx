@@ -42,7 +42,7 @@ $routes->get('/Manual', 'Home::Manual');
 $routes->get('/Contact', 'Home::Contact');
 // $routes->get('/testimonial', 'Home::testimonial');
 // $routes->get('/new_events', 'Home::new_events');
-
+$routes->post('contact/sendEmail', 'Email::sendEmail');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

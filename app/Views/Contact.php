@@ -139,28 +139,28 @@
         </header>
         <div role="main" class="main">
             <div id="content" class="content full">
-                <script src="https://www.google.com/recaptcha/api.js"></script>
+                <!-- <script src="https://www.google.com/recaptcha/api.js"></script> -->
                 <!-- Google Maps -->
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="alert alert-success hidden" id="contactSuccess">
+                            <!-- <div class="alert alert-success hidden" id="contactSuccess">
                                 <strong>Success!</strong> Your message has been sent to us.
                             </div>
                             <div class="alert alert-error hidden" id="contactError">
                                 <strong>Error!</strong> There was an error sending your message.
-                            </div>
+                            </div> -->
                             <h2 class="short">ติดต่อเรา </h2>
-                            <form action="/Home/Contact" id="contactForm" method="POST">
+                            <form id="contactForm" method="POST">
                                 <div class="row">
                                     <div class="form-group">
                                         <div class="col-md-6">
                                             <label>ชื่อ*</label>
-                                            <input id="name" type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name">
+                                            <input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name">
                                         </div>
                                         <div class="col-md-6">
                                             <label>อีเมล์*</label>
-                                            <input id="email" type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email">
+                                            <input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email">
                                         </div>
                                     </div>
                                 </div>
@@ -168,7 +168,7 @@
                                     <div class="form-group">
                                         <div class="col-md-12">
                                             <label>เบอร์ติดต่อกลับ*</label>
-                                            <input id="phone" type="text" value="" data-msg-required="Please enter your contact number." maxlength="100" class="form-control" name="phone" id="phone">
+                                            <input type="text" value="" data-msg-required="Please enter your contact number." maxlength="100" class="form-control" name="phone" id="phone">
                                         </div>
                                     </div>
                                 </div>
@@ -176,7 +176,7 @@
                                     <div class="form-group">
                                         <div class="col-md-12">
                                             <label>หัวข้อ*</label>
-                                            <input id="subject" type="text" value="" data-msg-required="Please enter the subject." maxlength="100" class="form-control" name="subject" id="subject">
+                                            <input type="text" value="" data-msg-required="Please enter the subject." maxlength="100" class="form-control" name="subject" id="subject">
                                         </div>
                                     </div>
                                 </div>
@@ -184,26 +184,23 @@
                                     <div class="form-group">
                                         <div class="col-md-12">
                                             <label>ข้อความ*</label>
-                                            <textarea id="message" maxlength="5000" data-msg-required="Please enter your message." rows="10" class="form-control" name="message" id="message"></textarea>
+                                            <textarea maxlength="5000" data-msg-required="Please enter your message." rows="10" class="form-control" name="message" id="message"></textarea>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="form-group">
                                         <div class="col-md-12">
-                                            <input id="first" type="hidden" value="" data-msg-required="Please enter the answer." maxlength="100" class="form-control" name="first">
-                                            <input id="second" type="hidden" value="" data-msg-required="Please enter the answer." maxlength="100" class="form-control" name="second">
-                                            <label id="question">bot? กรุณาตอบคำถามให้ถูกต้อง</label>
-                                            <input id="ans" type="text" value="" data-msg-required="Please enter the answer." maxlength="100" class="form-control" name="ans">
+                                            <div class="g-recaptcha" data-sitekey="6LfqdVsqAAAAAGAUU8nFcPp6OLNtiZBdnh4CMebR" id="recaptcha" data-callback="recaptchaCallback"></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <!-- data-sitekey="6LdnlFEdAAAAAAnn6hdsZvnGB2x7lMS77d2x0QZ1" -->
-                                        <input id="button-submit" type="submit" value="Submit" class="g-recaptcha btn btn-primary btn-lg"  data-callback='onSubmit'></input>
+                                        <input id="button-submit" type="submit" value="Submit" class="btn btn-primary btn-lg" disabled>
                                     </div>
                                 </div>
+                                <div id="responseMessage" style="margin-top: 16px;"></div>
                             </form>
                         </div>
                         <div class="col-md-6">
@@ -283,11 +280,68 @@
     <script src="/vendor/circle-flip-slideshow/js/jquery.flipshow.js"></script>
     <script src="/vendor/magnific-popup/magnific-popup.js"></script>
     <script src="/vendor/jquery.validate.js"></script>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Current Page Scripts -->
 
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+
+    <script>
+        function recaptchaCallback() {
+            // เมื่อผู้ใช้ติ๊ก reCAPTCHA จะเปิดใช้งานปุ่ม Submit
+            document.getElementById('button-submit').disabled = false;
+        }
+
+        // หากต้องการรีเซ็ตปุ่ม Submit เมื่อฟอร์มถูกส่ง
+        document.getElementById('contactForm').addEventListener('reset', function() {
+            document.getElementById('button-submit').disabled = true;
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $('#contactForm').on('submit', function(event) {
+                event.preventDefault(); // ป้องกันการรีเฟรชหน้า
+
+                // รับค่าจากฟอร์ม
+                var formData = {
+                    name: $('#name').val(),
+                    email: $('#email').val(),
+                    phone: $('#phone').val(),
+                    subject: $('#subject').val(),
+                    message: $('#message').val(),
+                    'g-recaptcha-response': grecaptcha.getResponse() // รับค่าจาก reCAPTCHA
+                };
+
+                // ตรวจสอบว่าผู้ใช้กรอก reCAPTCHA หรือยัง
+                // if (formData['g-recaptcha-response'] === '') {
+                //     $('#responseMessage').text('กรุณาทำการยืนยัน reCAPTCHA ก่อนส่งข้อมูล');
+                //     return;
+                // }
+
+                // ส่งข้อมูลผ่าน AJAX
+                $.ajax({
+                    type: "POST",
+                    url: '/contact/sendEmail', // เปลี่ยน URL ตามที่คุณกำหนด
+                    data: formData,
+                    dataType: 'json',
+                    success: function(response) {
+                        if (response.success) {
+                            $('#responseMessage').text(response.success);
+                        } else {
+                            $('#responseMessage').text(response.error);
+                        }
+                    },
+                    error: function() {
+                        $('#responseMessage').text('เกิดข้อผิดพลาดในการส่งข้อมูล.');
+                    }
+                });
+            });
+        });
+    </script>
+
+
     <script>
         $(document).ready(function() {
             //set active tab
@@ -327,7 +381,7 @@
     </script>
 
 
-    <script>
+    <!-- <script>
         let first = _.sample([1, 2, 3, 4, 5])
         let second = _.sample([1, 2, 3, 4, 5])
 
@@ -375,7 +429,7 @@
             }))
             $(".form-control").on("input", onType);
         });
-    </script>
+    </script> -->
 
     <!-- Theme Initializer -->
     <script src="/js/theme.js"></script>
